@@ -1,0 +1,6 @@
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\bin\Debug\pixel.exe.config
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\bin\Debug\pixel.exe
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\bin\Debug\pixel.pdb
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\obj\Debug\pixel.csprojResolveAssemblyReference.cache
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\obj\Debug\pixel.exe
+c:\users\arai\documents\visual studio 2015\Projects\pixel\pixel\obj\Debug\pixel.pdb
