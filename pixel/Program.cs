@@ -20,7 +20,7 @@ namespace pixel
             System.Console.Write("幅　=" + width + '\n');
             System.Console.Write("高さ=" + height + '\n');
 
-            Color[] colors = { Color.Red,Color.Blue,Color.Yellow,Color.Green,Color.Pink};
+            Color[] colors = {  Color.Gold,Color.Blue,Color.Yellow,Color.Green,Color.Pink};
 
             for (int num = 0; num < colors.Length; num++)
             {
@@ -33,12 +33,13 @@ namespace pixel
                         if (color.R == 0 && color.B == 0 && color.G == 0)
                         {
                             newColor = colors[num];
+                            newColor = Color.FromArgb(newColor.R / 2, newColor.G / 2, newColor.B / 2);
                         }
                         else newColor = Color.FromArgb(color.R, color.G, color.B);
                         newbitmap.SetPixel(i, j, newColor);
                     }
                 }
-                newbitmap.Save("../../img/image"+colors[num].ToString()+".png");
+                newbitmap.Save("../../img/image_pale_"+colors[num].ToString()+".png");
             }
         }
     }
